@@ -26,6 +26,18 @@ cd pks
 cargo tauri dev
 ```
 
+### Scripts
+
+`cargo tauri dev`: start tauri dev window
+`RUST_BACKTRACE=1 tauri dev`: (Linux and macOS) Rerun tauri dev with granular stack trace
+
+(Windows)
+
+```bash
+$ set RUST_BACKTRACE=1
+$ tauri dev
+```
+
 ## License
 
 This project is licensed under the terms of the [MIT LICENSE](./LICENSE)
